@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(0, 0, 0);
+    color:white;
+
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+button {
+    padding: 10px 15px;
+    cursor: pointer;
+    border: none;
+    background: #c21655;
+    color: white;
+    border-radius: 5px;
+    margin: 2rem;
+}
+button:hover {
+    background: #0056b3;
+}
+section {
+    color:white;
+    margin: 20px;
+    border: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(243, 232, 232, 0.6);
+}
+
+
+#answer-buttons
+{
+    padding: 2rem;
+    color: crimson;
+}
+
+.img
+{
+    display: inline;
+    max-width: 600px;
+    margin-right: 1rem;
+}
+
+.img1
+{
+    display: inline;
+    max-width: 480px;
+    margin-left: 5rem;
+}
+
+.vid
+{
+    margin-bottom: 2rem;
+    
+}
+
+#baking
+{
+   
+    max-width: 400px;
+    max-height: 500px;
+}
+
+#camera
+{
+    max-width: 500px;
+}
+
+.int
+{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

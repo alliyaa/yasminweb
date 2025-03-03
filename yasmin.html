@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yasmin's Event</title>
+
+    <link rel="stylesheet" href="yasmin.css">
+</head>
+<body>
+  <header>
+        <h1>Yasmin</h1>
+      
+    </header>
+        
+    <section id="about" class="fade-in" class="s1">
+        <h4>Yasmin's Top 3 Funniest Moments </h4>
+       <a class="vid" href="yasminvid1.mp4">  Yasmin with Animals </a> <br> <br>
+       <a class="vid" href="yasminvid2.mp4">Yasmin The Day of the Exam  </a> <br> <br>
+       <a class="vid" href="yasminvid3.mp4">Yasmin learning a new Language  </a> <br> <br>
+       </section>
+
+<section>
+       <h4>Yasmin as A Kid</h4>
+       <img class="img" src="yasmin.jpg" alt="Yasmin as A Baby">
+       <img class="img1" src="yasmin1.jpg" alt="Yasmin as A Baby">
+   </section>
+           
+   <section class="fade-in">
+    <h4>Yasmin's Niche Interests </h4>
+    <ol>
+        <li>
+            cars <br> <br> <br> <br> 
+            <img  id="camera" src="car.jpg" >
+        </li>
+        <br> <br> <br> <br> 
+        <li>
+            taking ugly photos of us + photos in general (digital camera queen) <br> <br> <br> <br> 
+            <img  id="camera" src="camera.jpg" >
+        </li>
+        <br> <br> <br> <br>
+        <li>
+            baking <br> <br> <br> <br> 
+            <img  id="baking" src="baking.jpg" >
+        </li>
+        <br> <br> <br> <br> 
+        <li>
+            sports <br> <br> <br> <br> 
+            <img id="camera" src="sports.jpg" >
+        </li>
+    </ol>
+
+   </section>
+   
+    <section id="quiz" class="fade-in">
+        <h2>How Well Do You Know Yasmin?</h2>
+        <div id="start-container">
+            <button id="start-btn">Start Quiz</button>
+        </div>
+        <div id="quiz-container" class="hide">
+            <p id="question-text"></p>
+            <div id="answer-buttons"></div>
+            <button id="next-btn" class="hide">Next</button>
+        </div>
+        <p id="quiz-result"></p>
+    </section>
+    
+    
+    <section id="qoutesgenerator" class="fade-in">
+        <h2>Yasmin's Quotes Generator</h2>
+        <button onclick="generateQuote()">Generate Quote</button>
+        <p id="meme-text"></p>
+    </section>
+    
+
+    <script src="yasmin.js"></script> 
+</body>
+</html>
